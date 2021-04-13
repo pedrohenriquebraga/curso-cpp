@@ -24,11 +24,12 @@ HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
 CommandLine=
-Folders=
+Folders=aulas,"aulas/aula_001 - Hello World","aulas/aula_002 - Variáveis",exercícios
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000000000000
+CompilerSettings=0000000000000000001000000
+UnitCount=2
 
 [VersionInfo]
 Major=1
@@ -48,4 +49,24 @@ ProductName=
 ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
+
+[Unit1]
+FileName=aula-001.cpp
+CompileCpp=1
+Folder=aulas/aula_001 - Hello World
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
+FileName=aula-002.cpp
+CompileCpp=1
+Folder=aulas/aula_002 - Variáveis
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
 
