@@ -16,7 +16,7 @@ int main() {
 	switch(val) { 
 	  case 1:
 	  case 2:
-			cout << "\nTransporte terrestre\n";
+		cout << "\nTransporte terrestre\n";
 			switch(val) {
 				case 1:
 					cout << "Carro selecionado\n";
